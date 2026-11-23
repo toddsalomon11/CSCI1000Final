@@ -17,11 +17,10 @@ export default function Home() {
         <p className='description2'>
           Below you should hopefully find my AboutMe!{' '}
         </p>
-        <code>src/page/teamMemberName.js</code>
 
         <div className='grid'>
           <a href='/ToddSalomon ' className='card'>
-            <h3>Example About Me Page &rarr;</h3>
+            <h3>My Page! &rarr;</h3>
             <p>Click here to view Todd Salomon's page!</p>
           </a>
 
@@ -60,7 +59,7 @@ export default function Home() {
         footer {
           width: 100%;
           height: 100px;
-          border-top: 1px solid #525252;
+          border-top: 1px solid #ffffff;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -139,7 +138,7 @@ export default function Home() {
           text-align: left;
           color: inherit;
           text-decoration: none;
-          border: 1px solid #8d8d8d;
+          border: 1px solid #ffffff;
           border-radius: 10px;
           transition: color 0.15s ease, border-color 0.15s ease;
         }
