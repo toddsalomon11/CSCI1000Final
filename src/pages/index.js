@@ -59,7 +59,7 @@ export default function Home() {
         footer {
           width: 100%;
           height: 100px;
-          border-top: 1px solid #ffffff;
+          border-top: 1px solid #727272;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -138,7 +138,7 @@ export default function Home() {
           text-align: left;
           color: inherit;
           text-decoration: none;
-          border: 1px solid #ffffff;
+          border: 1px solid #747474;
           border-radius: 10px;
           transition: color 0.15s ease, border-color 0.15s ease;
         }
