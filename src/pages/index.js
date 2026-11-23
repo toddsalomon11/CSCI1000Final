@@ -9,50 +9,22 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className='title'>Congratulations! You've set up your webapp!</h1>
+        <h1 className='title'>Hey, welcome to my website about only me!</h1>
 
         <p className='description'>
-          Get started by editing <code>src/pages/index.js</code> to be your
-          project home page.
+          Just so you know I really dislike node...
         </p>
         <p className='description2'>
-          Next, each team member will create their own about me file in the
-          pages directory:{' '}
+          Below you should hopefully find my AboutMe!{' '}
         </p>
         <code>src/page/teamMemberName.js</code>
 
         <div className='grid'>
-          <a href='/TomHolland ' className='card'>
+          <a href='/ToddSalomon ' className='card'>
             <h3>Example About Me Page &rarr;</h3>
-            <p>Click here to navigate to an example page</p>
+            <p>Click here to view Todd Salomon's page!</p>
           </a>
 
-          <a
-            href='https://github.com/vedant29/Project-CSCI-1000'
-            className='card'>
-            <h3>Project Resources&rarr;</h3>
-            <p>
-              Return to the Github for resources on creating your own website!
-            </p>
-          </a>
-          <a
-            href='https://nextjs.org/learn/foundations/about-nextjs'
-            className='card'>
-            <h3>Next.js&rarr;</h3>
-            <p>Click here to learn more about Next.js</p>
-          </a>
-          <a href='https://blog.hubspot.com/website/html' className='card'>
-            <h3>HTML and CSS &rarr;</h3>
-            <p>Click here to learn more about HTML and CSS</p>
-          </a>{' '}
-          <a href='https://tailwindcss.com/' className='card'>
-            <h3>Tailwind css&rarr;</h3>
-            <p>Click here to learn more about tailwind css</p>
-          </a>
-          <a href='https://styled-components.com/' className='card'>
-            <h3>Styled Components&rarr;</h3>
-            <p>Click here to learn more about Styled Components</p>
-          </a>
           <a href='https://www.netlify.com/' className='card'>
             <h3>Netlify&rarr;</h3>
             <p>Click here to learn more about Netlify to host your website</p>
@@ -88,7 +60,7 @@ export default function Home() {
         footer {
           width: 100%;
           height: 100px;
-          border-top: 1px solid #eaeaea;
+          border-top: 1px solid #525252;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -142,7 +114,7 @@ export default function Home() {
         }
 
         code {
-          background: #fafafa;
+          background: #3b3b3b;
           border-radius: 5px;
           padding: 0.75rem;
           font-size: 1.1rem;
@@ -167,7 +139,7 @@ export default function Home() {
           text-align: left;
           color: inherit;
           text-decoration: none;
-          border: 1px solid #eaeaea;
+          border: 1px solid #8d8d8d;
           border-radius: 10px;
           transition: color 0.15s ease, border-color 0.15s ease;
         }
